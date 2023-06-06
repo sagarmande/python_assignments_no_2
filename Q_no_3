@@ -1,0 +1,34 @@
+Sure! Here are the truth tables for each Boolean operator:
+
+1. AND operator (&&):
+   
+   | A     | B     | A && B |
+   |-------|-------|--------|
+   | false | false | false  |
+   | false | true  | false  |
+   | true  | false | false  |
+   | true  | true  | true   |
+
+   In the truth table, A and B represent the operands, and A && B represents the result of the AND operation.
+
+2. OR operator (||):
+   
+   | A     | B     | A \|\| B |
+   |-------|-------|----------|
+   | false | false | false    |
+   | false | true  | true     |
+   | true  | false | true     |
+   | true  | true  | true     |
+
+   In the truth table, A and B represent the operands, and A \|\| B represents the result of the OR operation.
+
+3. NOT operator (!):
+   
+   | A     | !A    |
+   |-------|-------|
+   | false | true  |
+   | true  | false |
+
+   In the truth table, A represents the operand, and !A represents the result of the NOT operation.
+
+These truth tables illustrate the output value (true or false) for every possible combination of Boolean values for each operator.
