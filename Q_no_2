@@ -1,0 +1,9 @@
+The three different types of Boolean operators are:
+
+1. AND operator: The AND operator returns true if both operands are true, and false otherwise. It is denoted by the symbol "&&" or the word "AND". For example, in the expression "A && B", the result is true only if both A and B are true.
+
+2. OR operator: The OR operator returns true if at least one of the operands is true, and false if both operands are false. It is denoted by the symbol "||" or the word "OR". For example, in the expression "A || B", the result is true if either A or B (or both) are true.
+
+3. NOT operator: The NOT operator, also known as the negation operator, is a unary operator that negates the value of its operand. It returns true if the operand is false, and false if the operand is true. It is denoted by the exclamation mark "!" or the word "NOT". For example, in the expression "!A", the result is true if A is false.
+
+These Boolean operators are commonly used in programming, logic, and search queries to combine conditions and perform logical operations.
