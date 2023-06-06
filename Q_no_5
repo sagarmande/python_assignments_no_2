@@ -1,0 +1,15 @@
+The six comparison operators commonly used in programming and logical expressions are as follows:
+
+1. Equal to (==): This operator compares if two values are equal and returns `true` if they are, and `false` otherwise.
+
+2. Not equal to (!=): This operator compares if two values are not equal and returns `true` if they are not, and `false` if they are equal.
+
+3. Greater than (>): This operator compares if the value on the left is greater than the value on the right and returns `true` if it is, and `false` otherwise.
+
+4. Less than (<): This operator compares if the value on the left is less than the value on the right and returns `true` if it is, and `false` otherwise.
+
+5. Greater than or equal to (>=): This operator compares if the value on the left is greater than or equal to the value on the right and returns `true` if it is, and `false` otherwise.
+
+6. Less than or equal to (<=): This operator compares if the value on the left is less than or equal to the value on the right and returns `true` if it is, and `false` otherwise.
+
+These comparison operators are used to evaluate conditions and make decisions in programming and logical expressions.
