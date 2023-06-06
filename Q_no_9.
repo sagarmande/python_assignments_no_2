@@ -1,0 +1,15 @@
+If your program is stuck in an endless loop and you want to interrupt its execution, you can typically use the following key combinations to forcefully terminate the program depending on the operating system:
+
+1. Windows: 
+   - Press `Ctrl` + `Break` or `Ctrl` + `C` in the command prompt or terminal window.
+   - Alternatively, you can also try `Ctrl` + `Alt` + `Delete` and choose "Task Manager" to force quit the program.
+
+2. macOS:
+   - Press `Command` + `Option` + `Esc` to open the "Force Quit Applications" window. Select the program and click "Force Quit."
+   - Alternatively, open the terminal and press `Ctrl` + `C` to terminate the running program.
+
+3. Linux:
+   - Press `Ctrl` + `C` in the terminal window to terminate the program.
+   - If that doesn't work, you can try `Ctrl` + `\` or `Ctrl` + `D` to forcefully quit the program.
+
+It's important to note that forcefully terminating a program may result in the loss of unsaved data or improper termination of the program. Therefore, it should be used as a last resort when you're unable to terminate the program through normal means.
