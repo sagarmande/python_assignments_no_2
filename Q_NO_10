@@ -1,0 +1,45 @@
+Both `break` and `continue` are control flow statements used in programming loops, such as `for` and `while` loops, to alter the flow of execution. Here's how you can tell the difference between them:
+
+1. `break` statement: When a `break` statement is encountered within a loop, it immediately terminates the loop and continues with the next statement after the loop. It "breaks" out of the loop.
+
+Example:
+
+```python
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+```
+
+Output:
+```
+1
+2
+```
+
+In the above example, the `for` loop is iterating from `1` to `5`. When `i` becomes `3`, the `break` statement is encountered, and the loop is terminated. Therefore, only `1` and `2` are printed, and the loop doesn't continue to execute for `4` and `5`.
+
+2. `continue` statement: When a `continue` statement is encountered within a loop, it skips the rest of the loop's body for the current iteration and moves to the next iteration. It "continues" with the next iteration of the loop.
+
+Example:
+
+```python
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+```
+
+Output:
+```
+1
+2
+4
+5
+```
+
+In the above example, when `i` becomes `3`, the `continue` statement is encountered. It skips the `print` statement for `3` and proceeds to the next iteration. Therefore, `3` is not printed, but the loop continues executing for `4` and `5`.
+
+To summarize:
+- The `break` statement terminates the loop entirely and continues with the next statement after the loop.
+- The `continue` statement skips the rest of the loop's body for the current iteration and moves to the next iteration of the loop.
